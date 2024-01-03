@@ -36,7 +36,7 @@ curl -fLo "${XDG_CONFIG_HOME:-$HOME/.config}"/fontconfig/fonts.conf --create-dir
 
 [^fonts.conf]: man fonts.conf
 
-### 其他配置
+### 参考配置
 
 - https://szclsya.me/zh-cn/posts/fonts/linux-config-guide/
-- https://catcat.cc/post/2021-03-07/
+- https://github.com/meribold/dotfiles/tree/master/home/config/fontconfig
