@@ -8,13 +8,9 @@
 
 这是一个简单的字体偏好设置，使用 Noto 系列字体：
 
-- 使用 `Noto Sans CJK SC` （又称 思源黑体）作为无衬线字体（`Sans-Serif`）
-- 使用 `Noto Serif CJK SC` （又称 思源宋体）作为衬线字体（`Serif`）
-- 使用 `Noto Sans Mono` 作为等宽字体（`monospace`）
-
-Note: 如果 `LANG=en_US.UTF-8` 在网页上“中文双引号”没有表现为全角，是因为首先匹配了 Noto Sans，但这似乎在安卓上也是这样的表现。但是这好像无伤大雅，“Worse is better”。对于更 Hack 的字体配置可以参考：
-
-- https://catcat.cc/post/2021-03-07/
+- Noto Sans CJK SC（思源黑体）
+- Noto Serif CJK SC（思源宋体）
+- Noto Sans Mono
 
 ### 安装字体
 
@@ -40,6 +36,7 @@ curl -fLo "${XDG_CONFIG_HOME:-$HOME/.config}"/fontconfig/fonts.conf --create-dir
 
 [^fonts.conf]: man fonts.conf
 
-### Credits
+### 其他配置
 
 - https://szclsya.me/zh-cn/posts/fonts/linux-config-guide/
+- https://catcat.cc/post/2021-03-07/
