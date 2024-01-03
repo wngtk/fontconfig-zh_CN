@@ -8,9 +8,9 @@
 
 这是一个简单的字体偏好设置，设置使用 Fontconfig 的程序默认使用 Noto 字体和 Source Code Pro.
 
-- Noto Sans CJK SC
-- Noto Serif CJK SC
-- Source Code Pro
+- Sans Serif 默认 Note Sans, Noto Sans CJK SC
+- Serif 默认 Noto Serif, Noto Serif CJK SC
+- monospace 默认 Source Code Pro
 
 ### 安装字体
 
@@ -19,9 +19,10 @@
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji adobe-source-code-pro-fonts
 ```
 
-有几个好像没用到但是[其他教程](https://arch.icekylin.online/guide/rookie/desktop-env-and-app.html#_6-%E5%AE%89%E8%A3%85%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E5%8C%85)中推荐安装的字体：
+一些可能被使用到的字体:
+
 ```sh
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts-extra 
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts-extra ttf-liberation ttf-roboto 
 ```
 
 ### 安装配置
