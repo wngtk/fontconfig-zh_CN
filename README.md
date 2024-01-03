@@ -17,7 +17,7 @@
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji adobe-source-code-pro-fonts
 ```
 
-有几个好像没用到但是其他教程中推荐安装的字体：
+有几个好像没用到但是[其他教程](https://arch.icekylin.online/guide/rookie/desktop-env-and-app.html#_6-%E5%AE%89%E8%A3%85%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E5%8C%85)中推荐安装的字体：
 ```sh
 sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts-extra 
 ```
