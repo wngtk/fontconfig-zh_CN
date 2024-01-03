@@ -6,11 +6,11 @@
 
 ### 介绍
 
-这是一个简单的字体偏好设置，使用 Noto 系列字体：
+这是一个简单的字体偏好设置，设置使用 Fontconfig 的程序默认使用 Noto 字体和 Source Code Pro.
 
-- Noto Sans CJK SC（思源黑体）
-- Noto Serif CJK SC（思源宋体）
-- Noto Sans Mono
+- Noto Sans CJK SC
+- Noto Serif CJK SC
+- Source Code Pro
 
 ### 安装字体
 
