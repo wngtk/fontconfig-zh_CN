@@ -1,6 +1,6 @@
 # fontconfig-zh_CN
 
-针对中文的 fontconfig 偏好配置。
+针对简体中文的 fontconfig 偏好配置。
 
 ### 介绍
 
@@ -8,7 +8,9 @@
 
 - 使用 `Noto Sans CJK SC` （又称 思源黑体）作为无衬线字体（`Sans-Serif`）
 - 使用 `Noto Serif CJK SC` （又称 思源宋体）作为衬线字体（`Serif`）
-- 使用 `Source Code Pro` 作为等宽字体（`monospace`）
+- 使用 `Noto Sans Mono` 作为等宽字体（`monospace`）
+
+Note: 在网页上“中文双引号”没有表现为全角，是因为首先匹配 Noto Sans。
 
 ### 安装字体
 
@@ -34,3 +36,6 @@ curl -fLo "${XDG_CONFIG_HOME:-$HOME/.config}"/fontconfig/fonts.conf --create-dir
 
 [^fonts.conf]: man fonts.conf
 
+### Credits
+
+- https://szclsya.me/zh-cn/posts/fonts/linux-config-guide/
