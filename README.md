@@ -6,24 +6,24 @@
 
 ### 介绍
 
-这是一个简单的字体偏好设置，设置使用 Fontconfig 的程序默认使用 Noto 字体和 Source Code Pro.
-
-- Sans Serif 默认 Note Sans, Noto Sans CJK SC
-- Serif 默认 Noto Serif, Noto Serif CJK SC
-- monospace 默认 Source Code Pro
+多安装几个字体后默认情况就已经很不错了
 
 ### 安装字体
 
 #### Arch Linux
 ```sh
-sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji adobe-source-code-pro-fonts
+sudo pacman -S ttf-liberation ttf-roboto gsfonts ttf-dejavu noto-fonts-cjk noto-fonts-emoji adobe-source-code-pro-fonts
 ```
+
+gsfonts: Helvetica 被替换成 Nimbus Sans
 
 一些可能被使用到的字体:
 
 ```sh
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei noto-fonts-extra ttf-liberation ttf-roboto 
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei
 ```
+
+
 
 ### 安装配置
 
