@@ -23,20 +23,20 @@ gsfonts: Helvetica 被替换成 Nimbus Sans
 sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei
 ```
 
-### 安装 `fonts.conf`
-
-###### Linux
-```sh
-curl -fLo "${XDG_CONFIG_HOME:-$HOME/.config}"/fontconfig/fonts.conf --create-dirs \
-    https://raw.githubusercontent.com/wngtk/fontconfig-zh_CN/main/fonts.conf
-```
-
 ### 安装 `64-language-selector-prefer.conf`
 
 ###### Linux
 ```sh
 curl -fLo /etc/fonts/conf.d/64-language-selector-prefer.conf --create-dirs \
     https://raw.githubusercontent.com/wngtk/fontconfig-zh_CN/main/64-language-selector-prefer.conf
+```
+
+### 安装 `fonts.conf`
+
+###### Linux
+```sh
+curl -fLo "${XDG_CONFIG_HOME:-$HOME/.config}"/fontconfig/fonts.conf --create-dirs \
+    https://raw.githubusercontent.com/wngtk/fontconfig-zh_CN/main/fonts.conf
 ```
 
 ### 参考配置
