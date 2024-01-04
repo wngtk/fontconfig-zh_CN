@@ -6,7 +6,7 @@
 
 ### 介绍
 
-添加 `64-language-selector-prefer.conf` 到 `/etc/fonts/conf.d`。
+添加 `64-language-selector-prefer.conf` 到 `/etc/fonts/conf.d` 或者安装 `fonts.conf`，两者都安装也可以。
 
 ### 安装字体
 
